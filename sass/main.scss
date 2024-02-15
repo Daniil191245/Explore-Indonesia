@@ -1,7 +1,15 @@
-
-// тут будуть компоненти 
-
 @import "./utils/vars";
 @import "./utils/mixin";
 @import "./utils/placeholders";
 @import "./utils/reset";
+
+@import "./components/header";
+@import "./components/explore-hero";
+@import "./components/indonesia";
+@import "./components/explore";
+@import "./components/numbers";
+@import "./components/nature";
+@import "./components/live";
+@import "./components/gallery";
+@import "./components/getting";
+@import "./components/footer";
