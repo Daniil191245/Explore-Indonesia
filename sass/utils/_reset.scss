@@ -1,3 +1,13 @@
 // для шрифту, треба буде закинути в боді після того як зроблю розмітку
 // font-family: 'DM Sans', sans-serif;
 // font-family: 'Roboto', sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
