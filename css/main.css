@@ -8,6 +8,7 @@
 body {
   font-family: "DM Sans", sans-serif;
   font-family: "Roboto", sans-serif;
+  background-color: black;
 }
 
 a {
@@ -48,4 +49,21 @@ ol {
     width: 1200px;
     padding: 0px;
   }
+}
+
+.container-explore {
+  width: 320px;
+  margin: 0 auto;
+  padding-left: 29px;
+  padding-right: 31px;
+}
+@media screen and (min-width: 1240px) {
+  .container-explore {
+    width: 1450px;
+    padding: 0px;
+  }
+}
+
+.explore-list {
+  display: flex;
 }

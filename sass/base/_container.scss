@@ -9,3 +9,13 @@
     }
 
 }
+.container-explore{
+     width: 320px;
+    margin: 0 auto;
+    padding-left: 29px;
+    padding-right: 31px;
+    @media screen and (min-width:1240px){
+        width: 1450px;
+        padding: 0px;
+    }
+}
