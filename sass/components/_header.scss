@@ -1,0 +1,41 @@
+.header {
+  padding-top: 48px;
+//   position: absolute;
+  & {
+    width: 326px;
+    padding-left: 31px;
+    padding-right: 30px;
+    margin: 0 auto;
+  }
+}
+.mobile-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+//   justify-content: ;
+}
+.mobile-logotype {
+  margin-right: 107px;
+}
+.block-svg {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.svg-search {
+  width: 18px;
+  height: 12px;
+  fill: $title-white;
+}
+.svg-logotype {
+  width: 148px;
+  height: 59px;
+  fill: $title-white;
+  stroke: $title-white;
+}
+.nav-svg {
+  width: 18px;
+  height: 12px;
+  fill: $title-white;
+}

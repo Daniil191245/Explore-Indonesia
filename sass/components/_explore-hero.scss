@@ -1,0 +1,78 @@
+.explore-hero{
+    margin-bottom: 40px;
+    background-image: url(../../assets/imgs/2x/section-hero/back-mobile2x.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.explore-heading {
+  width: 314px;
+  height: 126px;
+  font-family: Roboto;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 63px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: $title-white;
+}
+.explore-button {
+  width: 315px;
+  height: 59px;
+  border-radius: 107.63px;
+  margin-bottom: 54px;
+  background: $button-color;
+  & > span {
+    width: 134px;
+    height: 16px;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: $title-white;
+  }
+}
+.explore-block{
+width: 314px;
+border: 1px solid rgb(0, 0, 0);
+background: rgb(0, 0, 0);
+opacity: 0.6;
+padding-left: 32px;
+padding-top: 35px;
+padding-bottom: 35px;
+margin-bottom: 1px;
+}
+.explore-hero-item:not(:last-child){
+margin-bottom: 32px;
+}
+.explore-hero-number {
+  color: $button-color;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 19px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.explore-hero-title {
+  width: 121px;
+  height: 42px;
+  font-family: DM Sans;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 41px;
+  margin-bottom: 5px;
+  color: $title-white;
+}
+.explore-hero-text {
+width: 210px;
+height: 46px;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: $text-color;
+}
