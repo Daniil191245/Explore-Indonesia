@@ -1,0 +1,50 @@
+.numbers-item:not(:last-child){
+    margin-bottom: 80px;
+}
+.numbers-list{
+    padding: 0;
+}
+.numbers-heading {
+  font-family: DM Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 33px;
+  color: $title-white;
+}
+.numbers-text {
+  width: 285px;
+  height: 120px;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  margin-bottom: 62px;
+  color: $text-lighten;
+}
+.item-heading {
+  font-family: DM Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 15px;
+  color: $button-color;
+}
+.item-text {
+  width: 274px;
+  height: 70.23px;
+font-family: DM Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.5px;
+text-align: center;
+padding-left: 0;
+color: $text-lighten;
+}
