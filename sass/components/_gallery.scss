@@ -1,0 +1,45 @@
+.gallery{
+background-color: $title-white;
+padding: 33px 0 40px;
+}
+.gallery-heading{
+width: 314px;
+height: 52px;
+font-family: DM Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 46px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 20px;
+color: $background;
+}
+.gallery-text{
+width: 314px;
+height: 160px;
+font-family: DM Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.5px;
+text-align: center;
+margin-bottom: 32px;
+color: $paragraph-dark;
+}
+.gallery-list{
+    // display: grid;
+    // grid-template-columns: 1fr,2;
+    width: 330px;
+     display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-left: 0;
+}
+.card-gallery{
+    // width: 151px;
+height: 217px;
+}
+.card-gallerys{
+    // width: 150px;
+height: 153px;
+}

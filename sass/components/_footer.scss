@@ -1,0 +1,53 @@
+.footer{
+padding: 146px 0 83px;
+background: $background;
+}.footer-logo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 36px;
+}
+.logotype{
+width: 174px;
+height: 65px;
+}
+.footer-list{
+text-align: center;
+margin-bottom: 36px;
+}
+.footer-item:not(:last-child){
+margin-bottom: 36px;
+}
+.footer-link{
+font-family: DM Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 35px;
+letter-spacing: 0.64px;
+color: $title-white;
+}
+.footer-list-2{
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 36px;
+}
+.footer-item-2:not(:last-child){
+    margin-right: 50px;
+}
+.item-icon{
+    width: 31px;
+height: 31px;
+}
+.footer-text{
+font-family: DM Sans;
+font-size: 23px;
+font-weight: 600;
+line-height: 36.15px;
+letter-spacing: 0.65px;
+text-align: center;
+margin-left: 25px;
+color: $title-white;
+}
