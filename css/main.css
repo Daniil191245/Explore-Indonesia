@@ -66,6 +66,9 @@ ol {
 
 .header {
   padding-top: 48px;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
 }
 .header {
   width: 326px;
@@ -181,6 +184,7 @@ ol {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding-top: 153px;
 }
 
 .explore-heading {
@@ -513,12 +517,20 @@ ol {
   padding-left: 0;
 }
 
-.card-gallery {
-  height: 217px;
+.gallery-item {
+  width: 151px;
 }
 
-.card-gallerys {
-  height: 153px;
+.gallery-2 {
+  height: 86px;
+}
+
+.gallery-5 {
+  height: 86px;
+}
+
+.gallery-4 {
+  flex-grow: 1;
 }
 
 .footer {

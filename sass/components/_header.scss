@@ -1,7 +1,11 @@
 .header {
   padding-top: 48px;
-//   position: absolute;
-  & {
+  position: absolute;
+  // 1 варіант
+  transform: translateX(-50%);
+  left: 50%;
+
+    & {
     width: 326px;
     padding-left: 31px;
     padding-right: 30px;
