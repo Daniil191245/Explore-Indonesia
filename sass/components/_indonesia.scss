@@ -1,5 +1,13 @@
 .indonesia{
     margin-bottom: 25px;
+    padding: 25px 0 48px;
+    background-image: url(../../assets/imgs/1x/section-indonesia/back-mobile1x.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx){
+        background-image: url(../../assets/imgs/2x/section-indonesia/back-mobile2x.webp);
+    }
 }
 .indonesia-list{
     padding-left: 0;

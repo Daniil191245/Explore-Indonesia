@@ -4,6 +4,10 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: url(../../assets/imgs/2x/section-live/back-mobile2x.webp);
+    background-size: cover;
+    }
 }
 .live-item:not(:last-child){
     margin-bottom: 24px;

@@ -1,55 +1,43 @@
-.gallery{
-background-color: $title-white;
-padding: 33px 0 40px;
+.gallery {
+  background-color: $title-white;
+  padding: 33px 0 40px;
 }
-.gallery-heading{
-width: 314px;
-height: 52px;
-font-family: DM Sans;
-font-size: 40px;
-font-weight: 700;
-line-height: 46px;
-letter-spacing: 0%;
-text-align: center;
-margin-bottom: 20px;
-color: $background;
+.gallery-heading {
+  width: 314px;
+  height: 52px;
+  font-family: DM Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 20px;
+  color: $background;
 }
-.gallery-text{
-width: 314px;
-height: 160px;
-font-family: DM Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.5px;
-text-align: center;
-margin-bottom: 32px;
-color: $paragraph-dark;
+.gallery-text {
+  width: 314px;
+  height: 160px;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  margin-bottom: 32px;
+  color: $paragraph-dark;
 }
-.gallery-list{
-    width: 330px;
-     display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    padding-left: 0;
+.gallery-list {
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 151px);
+  grid-template-rows: repeat(4, 100px);
+  gap: 15px 20px;
 }
-.gallery-item{
-    width: 151px;
+.card-gallery {
+  width: 151px;
+  height: 217px;
 }
-.card-gallery{
-    // width: 151px;
-// height: 217px;
-}
-.card-gallerys{
-    // width: 150px;
-// height: 153px;
-}
-.gallery-2{
-    height: 86px;
-}
-.gallery-5{
-    height: 86px;
-}
-.gallery-4{
-    flex-grow: 1;
+.card-gallerys {
+  width: 150px;
+  height: 153px;
 }
