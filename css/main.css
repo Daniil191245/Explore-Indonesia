@@ -432,6 +432,10 @@ ol {
 
 .live {
   padding: 83px 0 37px;
+  background-image: url(../../assets/imgs/1x/section-live/back-mobile1x.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .live-item:not(:last-child) {
