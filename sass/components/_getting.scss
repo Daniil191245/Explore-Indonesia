@@ -1,0 +1,74 @@
+.getting{
+    padding: 30px 0px 32px;
+background: $background-getting;
+}
+
+.getting-heading{
+font-family: DM Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 46px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 45px;
+color: $background;
+}
+.getting-item:not(:last-child){
+margin-bottom: 32px;
+}
+.item-heading-getting{
+    width: 285px;
+font-family: DM Sans;
+font-size: 22px;
+font-weight: 700;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 13px;
+color: $background;
+&::before{
+    content: "";
+    display: block;
+    width: 56px;
+    height: 56px;
+    margin: 0 auto;
+    margin-bottom: 26px;
+    background-image: url(../../assets/svg/svg-num/num1.svg);
+}
+}
+.heading-num2::before{
+     background-image: url(../../assets/svg/svg-num/num2.svg);
+}
+.heading-num3::before{
+    background-image: url(../../assets/svg/svg-num/num3.svg);
+}
+.geetting-img{
+    width: 290px;
+    margin-bottom: 40px;
+}
+.item-block-heading{
+    display: none;
+}
+.getting-text{
+    width: 214px;
+font-family: DM Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.5px;
+text-align: center;
+margin: 0 auto;
+margin-bottom: 32px;
+color: $text-color;
+& > a{
+    color: $button-color;
+}
+}
+.item-text-getting{
+display: none;
+}
+.item-block-text{
+    display: none;
+}
+.getting-button{
+    display: none;
+}

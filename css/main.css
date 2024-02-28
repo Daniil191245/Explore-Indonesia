@@ -18,6 +18,7 @@ a {
 ul,
 ol {
   list-style: none;
+  padding: 0;
 }
 
 .visually-hidden {
@@ -39,7 +40,7 @@ ol {
 }
 
 .container {
-  width: 340px;
+  width: 360px;
   padding-left: 31px;
   padding-right: 30px;
   margin: 0 auto;
@@ -52,7 +53,7 @@ ol {
 }
 
 .container-explore {
-  width: 350px;
+  width: 390px;
   margin: 0 auto;
   padding-left: 29px;
   padding-right: 31px;
@@ -534,21 +535,108 @@ ol {
 }
 
 .gallery-list {
-  padding-left: 0;
   display: grid;
   grid-template-columns: repeat(2, 151px);
   grid-template-rows: repeat(4, 100px);
   gap: 15px 20px;
 }
 
-.card-gallery {
-  width: 151px;
-  height: 217px;
+.gallery-item {
+  padding-left: 0;
+  border-radius: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .card-gallerys {
   width: 150px;
   height: 153px;
+}
+
+.getting {
+  padding: 30px 0px 32px;
+  background: #dce8f2;
+}
+
+.getting-heading {
+  font-family: DM Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 45px;
+  color: #010a20;
+}
+
+.getting-item:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.item-heading-getting {
+  width: 285px;
+  font-family: DM Sans;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 13px;
+  color: #010a20;
+}
+.item-heading-getting::before {
+  content: "";
+  display: block;
+  width: 56px;
+  height: 56px;
+  margin: 0 auto;
+  margin-bottom: 26px;
+  background-image: url(../../assets/svg/svg-num/num1.svg);
+}
+
+.heading-num2::before {
+  background-image: url(../../assets/svg/svg-num/num2.svg);
+}
+
+.heading-num3::before {
+  background-image: url(../../assets/svg/svg-num/num3.svg);
+}
+
+.geetting-img {
+  width: 290px;
+  margin-bottom: 40px;
+}
+
+.item-block-heading {
+  display: none;
+}
+
+.getting-text {
+  width: 214px;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 32px;
+  color: #939393;
+}
+.getting-text > a {
+  color: #dd2242;
+}
+
+.item-text-getting {
+  display: none;
+}
+
+.item-block-text {
+  display: none;
+}
+
+.getting-button {
+  display: none;
 }
 
 .footer {
