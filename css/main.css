@@ -273,14 +273,14 @@ ol {
 .indonesia {
   margin-bottom: 25px;
   padding: 25px 0 48px;
-  background-image: url(../../assets/imgs/1x/section-indonesia/back-mobile1x.webp);
+  background-image: url(../assets/imgs/1x/section-indonesia/back-mobile1x.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .indonesia {
-    background-image: url(../../assets/imgs/2x/section-indonesia/back-mobile2x.webp);
+    background-image: url(../assets/imgs/2x/section-indonesia/back-mobile2x.webp);
   }
 }
 
@@ -454,7 +454,7 @@ ol {
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .live {
-    background-image: url(../../assets/imgs/2x/section-live/back-mobile2x.webp);
+    background-image: url(../assets/imgs/2x/section-live/back-mobile2x.webp);
     background-size: cover;
   }
 }
@@ -591,15 +591,15 @@ ol {
   height: 56px;
   margin: 0 auto;
   margin-bottom: 26px;
-  background-image: url(../../assets/svg/svg-num/num1.svg);
+  background-image: url(../assets/svg/svg-num/num1.svg);
 }
 
 .heading-num2::before {
-  background-image: url(../../assets/svg/svg-num/num2.svg);
+  background-image: url(../assets/svg/svg-num/num2.svg);
 }
 
 .heading-num3::before {
-  background-image: url(../../assets/svg/svg-num/num3.svg);
+  background-image: url(../assets/svg/svg-num/num3.svg);
 }
 
 .geetting-img {
