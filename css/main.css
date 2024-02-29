@@ -337,14 +337,14 @@ ol {
 .explore {
   padding: 25px 0 200px;
   background-color: #848181;
-  background-image: url(../../assets/imgs/1x/section-explore/back-mobile1x.webp);
+  background-image: url(../assets/imgs/1x/section-explore/back-mobile1x.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .explore {
-    background-image: url(../../assets/imgs/2x/section-explore/back-mobile2x.webp);
+    background-image: url(../assets/imgs/2x/section-explore/back-mobile2x.webp);
   }
 }
 
