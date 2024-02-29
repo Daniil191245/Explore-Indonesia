@@ -180,6 +180,7 @@ ol {
 }
 
 .explore-hero {
+  background-color: #848181;
   background-image: url(../assets/imgs/1x/section-hero/back-mobile1x.webp);
   background-repeat: no-repeat;
   background-position: center;
@@ -272,6 +273,7 @@ ol {
 
 .indonesia {
   padding: 25px 0 48px;
+  background-color: #848181;
   background-image: url(../assets/imgs/1x/section-indonesia/back-mobile1x.webp);
   background-repeat: no-repeat;
   background-position: center;
@@ -510,6 +512,7 @@ ol {
 
 .live {
   padding: 83px 0 37px;
+  background-color: #010a20;
   background-image: url(../assets/imgs/1x/section-live/back-mobile1x.webp);
   background-repeat: no-repeat;
   background-position: center;
