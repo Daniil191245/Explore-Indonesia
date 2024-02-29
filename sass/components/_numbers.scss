@@ -1,5 +1,6 @@
 .numbers{
   padding: 72px 0 69px;
+  background: $background-number;
 }
 .numbers-item:not(:last-child){
     margin-bottom: 80px;
@@ -41,7 +42,7 @@
 }
 .item-text {
   width: 274px;
-  height: 70.23px;
+  height: 70px;
 font-family: DM Sans;
 font-size: 16px;
 font-weight: 400;

@@ -53,7 +53,7 @@ ol {
 }
 
 .container-explore {
-  width: 390px;
+  width: 435px;
   margin: 0 auto;
   padding-left: 29px;
   padding-right: 31px;
@@ -271,7 +271,6 @@ ol {
 }
 
 .indonesia {
-  margin-bottom: 25px;
   padding: 25px 0 48px;
   background-image: url(../assets/imgs/1x/section-indonesia/back-mobile1x.webp);
   background-repeat: no-repeat;
@@ -333,16 +332,67 @@ ol {
   color: #fff;
 }
 
-.explore-list {
-  display: flex;
+.explore {
+  padding: 72px 0 69px;
+  background-color: #848181;
 }
 
-.carousel-item {
+.explore-heading-carousel {
+  width: 270px;
+  height: 100px;
+  font-family: DM Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 26px;
+  color: #010a20;
+}
+
+.carousel {
+  margin-bottom: 695px;
+}
+
+.explore-item {
+  margin-left: 48px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-item .active {
+  width: 280px;
+  margin-right: 0px;
+}
+
+.carousel-indicators [data-bs-target] {
+  margin-left: 0;
+  margin-top: 16px;
+  margin-bottom: -4rem;
+  background-color: #85a3b2;
+}
+
+.carousel-indicators .active {
+  width: 53px;
+  border-radius: 40%;
+  background-color: #dd2242;
+}
+
+.card-item {
+  display: none;
+}
+
+.card-carousel {
+  width: 245px;
+  height: 75px;
+  height: 180px;
   margin: 0 auto;
 }
 
 .numbers {
   padding: 72px 0 69px;
+  background: #020c21;
 }
 
 .numbers-item:not(:last-child) {
@@ -390,7 +440,7 @@ ol {
 
 .item-text {
   width: 274px;
-  height: 70.23px;
+  height: 70px;
   font-family: DM Sans;
   font-size: 16px;
   font-weight: 400;
@@ -547,6 +597,11 @@ ol {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.card-gallery {
+  width: 150px;
+  height: 153px;
 }
 
 .card-gallerys {

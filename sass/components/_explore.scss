@@ -1,12 +1,56 @@
-.explore-list{
-    display: flex;
+.explore {
+  padding: 72px 0 69px;
+  background-color: #848181;
+  // background-image: url(../../assets/imgs/1x/number-explore/backmobile1x.webp);
+  //   background-repeat: no-repeat;
+  //     background-position: center;
+  //     background-size: cover;
+  //     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx){
+  //       background-image: url(../../assets/imgs/2x/number-explore/backmobile2x.webp);
+  //     }
 }
-.carousel-item{
-    margin: 0 auto;
+.explore-heading-carousel {
+    width: 270px;
+height: 100px;
+  font-family: DM Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 26px;
+  color: $background;
 }
-// .explore-item:not(:last-child){
-//     margin-right: 30px;
-// }
-// .carousel-indicators{
-//     width: 1800px;
-// }
+.carousel {
+  margin-bottom: 695px;
+}
+.explore-item {
+  margin-left: 48px;
+width: 280px;
+display: flex;
+justify-content: center;
+}
+.carousel-item .active{
+width: 280px;
+margin-right: 0px;
+}
+.carousel-indicators [data-bs-target] {
+  margin-left: 0;
+  margin-top: 16px;
+  margin-bottom: -4rem;
+  background-color: $grey-reduced;
+}
+.carousel-indicators .active {
+  width: 53px;
+  border-radius: 40%;
+  background-color: $button-color;
+}
+.card-item {
+  display: none;
+}
+.card-carousel {
+  width: 245px;
+  height: 75px;
+  height: 180px;
+  margin: 0 auto;
+}
