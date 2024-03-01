@@ -1,57 +1,115 @@
-.indonesia{
-    padding: 25px 0 48px;
-      background-color: $background-img;
-    background-image: url(../assets/imgs/1x/section-indonesia/back-mobile1x.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx){
+.indonesia {
+  padding: 25px 0 48px;
+  background-color: $background-img;
+  background-image: url(../assets/imgs/1x/section-indonesia/back-mobile1x.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url(../assets/imgs/2x/section-indonesia/back-mobile2x.webp);
+
+    @media screen and (min-width: 1200px) {
+      background-image: url(../assets/imgs/1x/section-indonesia/back-mobile1x.webp);
+      padding: 184px 0 200px;
+      @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
         background-image: url(../assets/imgs/2x/section-indonesia/back-mobile2x.webp);
     }
-}
-.indonesia-list{
-    padding-left: 0;
-}
-.indonesia-item{
-    &:not(:last-child){
-        margin-bottom: 56px;
     }
+  }
 }
-.indonesia-picture{
-    margin-bottom: 34px;
+.indonesia-list {
+  padding-left: 0;
 }
-.indonesia-title{
-width: 314px;
-height: 162px;
-font-family: DM Sans;
-font-size: 40px;
-font-weight: 700;
-line-height: 46px;
-margin-bottom: 24px;
-color: $title-white;
+.indonesia-item {
+  &:not(:last-child) {
+    margin-bottom: 56px;
+    @media screen and (min-width: 1200px){
+        margin-bottom: 192px;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    margin: 0 auto;
+  }
 }
-.indonesia-text{
-width: 315px;
-// height: 74px;
-font-family: DM Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.5px;
-margin-bottom: 31px;
-color: $text-lighten;
+.item-indonesia {
+  @media screen and (min-width: 1200px) {
+    flex-direction: row-reverse;
+  }
 }
-.indonesia-button{
-width: 314px;
-height: 72px;
-border-radius: 32px;
-background: $button-color;
-& > span{
-font-family: DM Sans;
-font-size: 18px;
-font-weight: 700;
-line-height: 150%;
-text-align: center;
-color: $title-white;
+.indonesia-picture {
+  margin-bottom: 34px;
+  @media screen and (min-width: 1200px) {
+    width: 500px;
+    height: 400px;
+    margin-bottom: 0;
+    margin-right: 130px;
+  }
 }
+.picture-card {
+  @media screen and (min-width: 1200px) {
+    margin-right: 0;
+    margin-left: 80px;
+  }
+}
+.indonesia-block {
+  @media screen and (min-width: 1200px) {
+    margin-top: 60px;
+  }
+}
+.indonesia-title {
+  width: 314px;
+  height: 162px;
+  font-family: DM Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  margin-bottom: 24px;
+  color: $title-white;
+  @media screen and (min-width: 1200px) {
+    width: 479px;
+    height: 119px;
+    font-size: 42px;
+    line-height: 50px;
+    margin-bottom: 4px;
+  }
+}
+.indonesia-text {
+  width: 315px;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  margin-bottom: 31px;
+  color: $text-lighten;
+  @media screen and (min-width: 1200px) {
+    width: 407px;
+    height: 83px;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 1%;
+  }
+}
+.indonesia-button {
+  width: 314px;
+  height: 72px;
+  border-radius: 32px;
+  background: $button-color;
+  @media screen and (min-width: 1200px) {
+    width: 179px;
+    height: 59px;
+  }
+  & > span {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 150%;
+    text-align: center;
+    color: $title-white;
+  }
 }

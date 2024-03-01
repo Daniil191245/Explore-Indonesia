@@ -1,6 +1,9 @@
 .numbers{
   padding: 72px 0 69px;
   background: $background-number;
+  @media screen and (min-width: 1200px){
+    padding: 201px 0 140px;
+  }
 }
 .numbers-item:not(:last-child){
     margin-bottom: 80px;
@@ -17,6 +20,14 @@
   margin: 0 auto;
   margin-bottom: 33px;
   color: $title-white;
+  @media screen and (min-width: 1200px){
+width: 615px;
+height: 52px;
+align-items: center;
+font-size: 60px;
+font-weight: 700;
+text-align: center;
+  }
 }
 .numbers-text {
   width: 285px;
@@ -29,6 +40,29 @@
   text-align: center;
   margin-bottom: 62px;
   color: $text-lighten;
+  @media screen and (min-width: 1200px){
+        width: 484px;
+        height: 102px;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 39px;
+  }
+}
+.numbers-list{
+  @media screen and (min-width: 1200px){
+    display: flex;
+    justify-content: center;
+  }
+}
+.numbers-item{
+  @media screen and (min-width: 1200px){
+    &:not(:last-child){
+      margin-right: 90px;
+    }
+  }
 }
 .item-heading {
   font-family: DM Sans;

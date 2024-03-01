@@ -45,10 +45,9 @@ ol {
   padding-right: 30px;
   margin: 0 auto;
 }
-@media screen and (min-width: 1240px) {
+@media screen and (min-width: 1200px) {
   .container {
-    width: 1200px;
-    padding: 0px;
+    width: 1160px;
   }
 }
 
@@ -58,9 +57,9 @@ ol {
   padding-left: 5px;
   padding-right: 8px;
 }
-@media screen and (min-width: 1240px) {
+@media screen and (min-width: 1200px) {
   .container-explore {
-    width: 1450px;
+    width: 1200px;
     padding: 0px;
   }
 }
@@ -284,6 +283,17 @@ ol {
     background-image: url(../assets/imgs/2x/section-indonesia/back-mobile2x.webp);
   }
 }
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (min-resolution: 192dpi) and (min-width: 1200px), screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+  .indonesia {
+    background-image: url(../assets/imgs/1x/section-indonesia/back-mobile1x.webp);
+    padding: 184px 0 200px;
+  }
+}
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-device-pixel-ratio: 2) and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-device-pixel-ratio: 2) and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-device-pixel-ratio: 2) and (min-width: 1200px) and (min-resolution: 2dppx), screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi) and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi) and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-resolution: 192dpi) and (min-width: 1200px) and (min-resolution: 2dppx), screen and (min-resolution: 2dppx) and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-resolution: 2dppx) and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .indonesia {
+    background-image: url(../assets/imgs/2x/section-indonesia/back-mobile2x.webp);
+  }
+}
 
 .indonesia-list {
   padding-left: 0;
@@ -292,9 +302,47 @@ ol {
 .indonesia-item:not(:last-child) {
   margin-bottom: 56px;
 }
+@media screen and (min-width: 1200px) {
+  .indonesia-item:not(:last-child) {
+    margin-bottom: 192px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .indonesia-item {
+    display: flex;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .item-indonesia {
+    flex-direction: row-reverse;
+  }
+}
 
 .indonesia-picture {
   margin-bottom: 34px;
+}
+@media screen and (min-width: 1200px) {
+  .indonesia-picture {
+    width: 500px;
+    height: 400px;
+    margin-bottom: 0;
+    margin-right: 130px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .picture-card {
+    margin-right: 0;
+    margin-left: 80px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .indonesia-block {
+    margin-top: 60px;
+  }
 }
 
 .indonesia-title {
@@ -307,6 +355,15 @@ ol {
   margin-bottom: 24px;
   color: #fff;
 }
+@media screen and (min-width: 1200px) {
+  .indonesia-title {
+    width: 479px;
+    height: 119px;
+    font-size: 42px;
+    line-height: 50px;
+    margin-bottom: 4px;
+  }
+}
 
 .indonesia-text {
   width: 315px;
@@ -318,12 +375,27 @@ ol {
   margin-bottom: 31px;
   color: #e0e0e0;
 }
+@media screen and (min-width: 1200px) {
+  .indonesia-text {
+    width: 407px;
+    height: 83px;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 1%;
+  }
+}
 
 .indonesia-button {
   width: 314px;
   height: 72px;
   border-radius: 32px;
   background: #dd2242;
+}
+@media screen and (min-width: 1200px) {
+  .indonesia-button {
+    width: 179px;
+    height: 59px;
+  }
 }
 .indonesia-button > span {
   font-family: DM Sans;
@@ -409,6 +481,11 @@ ol {
   padding: 72px 0 69px;
   background: #020c21;
 }
+@media screen and (min-width: 1200px) {
+  .numbers {
+    padding: 201px 0 140px;
+  }
+}
 
 .numbers-item:not(:last-child) {
   margin-bottom: 80px;
@@ -428,6 +505,16 @@ ol {
   margin-bottom: 33px;
   color: #fff;
 }
+@media screen and (min-width: 1200px) {
+  .numbers-heading {
+    width: 615px;
+    height: 52px;
+    align-items: center;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+  }
+}
 
 .numbers-text {
   width: 285px;
@@ -440,6 +527,31 @@ ol {
   text-align: center;
   margin-bottom: 62px;
   color: #e0e0e0;
+}
+@media screen and (min-width: 1200px) {
+  .numbers-text {
+    width: 484px;
+    height: 102px;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 39px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .numbers-list {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .numbers-item:not(:last-child) {
+    margin-right: 90px;
+  }
 }
 
 .item-heading {
@@ -468,7 +580,12 @@ ol {
 
 .nature {
   background-color: #fff;
-  padding: 171px 0 116px 0;
+  padding: 171px 0 116px;
+}
+@media screen and (min-width: 1200px) {
+  .nature {
+    padding: 218px 0 226px;
+  }
 }
 
 .nature-heading {
@@ -479,6 +596,17 @@ ol {
   text-align: center;
   margin-bottom: 36px;
   color: black;
+}
+@media screen and (min-width: 1200px) {
+  .nature-heading {
+    width: 614px;
+    height: 100px;
+    font-size: 42px;
+    line-height: 50px;
+    letter-spacing: 0px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+  }
 }
 
 .nature-text {
@@ -492,6 +620,16 @@ ol {
   text-align: center;
   margin-bottom: 41px;
   color: #6f7787;
+}
+@media screen and (min-width: 1200px) {
+  .nature-text {
+    width: 470px;
+    height: 84px;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 auto;
+    margin-bottom: 36px;
+  }
 }
 
 .nature-button {
@@ -509,6 +647,18 @@ ol {
   text-align: center;
   color: #fff;
 }
+@media screen and (min-width: 1200px) {
+  .nature-button {
+    width: 210px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .nature-button > span {
+    margin-top: 20px;
+  }
+}
 
 .live {
   padding: 83px 0 37px;
@@ -522,6 +672,16 @@ ol {
   .live {
     background-image: url(../assets/imgs/2x/section-live/back-mobile2x.webp);
     background-size: cover;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .live {
+    background-image: url(../assets/imgs/1x/section-live/back-desktop1x.webp);
+  }
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .live {
+    background-image: url(../assets/imgs/2x/section-live/back-desktop2x.webp);
   }
 }
 
@@ -538,14 +698,69 @@ ol {
   margin-bottom: 74px;
   color: #fff;
 }
+@media screen and (min-width: 1200px) {
+  .live-heading {
+    font-size: 42px;
+    line-height: 50px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
+}
+
+.live-img-vd {
+  width: 280px;
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 1200px) {
+  .live-img-vd {
+    width: 1056px;
+    height: 594px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-bottom: 125px;
+  }
+}
 
 .live-img {
   width: 280px;
   margin-bottom: 40px;
 }
 
+@media screen and (min-width: 1200px) {
+  .live-img-vdmin {
+    width: 233px;
+    height: 151px;
+    border-radius: 5px;
+    margin-right: 40px;
+  }
+}
+
 .live-list {
   padding: 0;
+}
+@media screen and (min-width: 1200px) {
+  .live-list {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .live-item {
+    display: flex;
+  }
+  .live-item:not(:last-child) {
+    margin-right: 95px;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .item-block {
+    margin-top: 10px;
+  }
 }
 
 .block-heading {
@@ -557,6 +772,15 @@ ol {
   margin-bottom: 23px;
   color: #fff;
 }
+@media screen and (min-width: 1200px) {
+  .block-heading {
+    width: 233px;
+    height: 35px;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+}
 
 .block-text {
   height: 81px;
@@ -567,6 +791,25 @@ ol {
   letter-spacing: 0.5px;
   text-align: center;
   color: #fff;
+}
+@media screen and (min-width: 1200px) {
+  .block-text {
+    width: 323px;
+    height: 106px;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    opacity: 0.7;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .block-text-live {
+    width: 335px;
+    height: 84px;
+    line-height: 28px;
+    text-align: left;
+  }
 }
 
 .gallery {
