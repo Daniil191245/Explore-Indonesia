@@ -1,11 +1,32 @@
 .footer{
 padding: 146px 0 83px;
 background: $background;
-}.footer-logo{
+@media screen and (min-width: 1200px) {
+    padding: 39px 0 31px;
+}
+}
+.footer-container{
+    @media screen and (min-width: 1200px){
+display: flex;
+justify-content: space-between;
+align-items: center;
+    }
+}
+.footer-block{
+    @media screen and (min-width: 1200px){
+        display: flex;
+        align-items: center;
+    }
+}
+.footer-logo{
             display: flex;
             justify-content: center;
             align-items: center;
             margin-bottom: 36px;
+            @media screen and (min-width: 1200px){
+                margin-right: 124px;
+                margin-bottom: 0;
+            }
 }
 .logotype{
 width: 174px;
@@ -14,9 +35,20 @@ height: 65px;
 .footer-list{
 text-align: center;
 margin-bottom: 36px;
+@media screen and (min-width: 1200px){
+    display: flex;
+    margin-bottom: 0;
+}
 }
 .footer-item:not(:last-child){
 margin-bottom: 36px;
+@media screen and (min-width: 1200px){
+        &:not(:last-child){
+        margin-right: 35px;
+        margin-bottom: 0;
+    }  
+}
+
 }
 .footer-link{
 font-family: DM Sans;
@@ -33,6 +65,9 @@ color: $title-white;
     justify-content: center;
     align-items: center;
     margin-bottom: 36px;
+    @media screen and (min-width: 1200px){
+        margin-bottom: 0;
+    }
 }
 .footer-item-2:not(:last-child){
     margin-right: 50px;
@@ -45,9 +80,16 @@ height: 31px;
 font-family: DM Sans;
 font-size: 23px;
 font-weight: 600;
-line-height: 36.15px;
+line-height: 36px;
 letter-spacing: 0.65px;
 text-align: center;
 margin-left: 25px;
 color: $title-white;
+@media screen and (min-width: 1200px){
+font-size: 18px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0.5px;
+margin-bottom: 0;
+}
 }
